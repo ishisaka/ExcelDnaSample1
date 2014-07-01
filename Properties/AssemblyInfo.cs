@@ -1,5 +1,13 @@
-﻿using System.Reflection;
-using System.Runtime.CompilerServices;
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="AssemblyInfo.cs" company="Tadahiro Ishisaka">
+//   Copyright 2014 Tadahiro Ishisaka
+// </copyright>
+// <summary>
+//   AssemblyInfo.cs
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 // アセンブリに関する一般情報は以下の属性セットをとおして制御されます。
@@ -23,12 +31,10 @@ using System.Runtime.InteropServices;
 [assembly: Guid("623b7145-a069-4fec-859a-1085884111a4")]
 
 // アセンブリのバージョン情報は、以下の 4 つの値で構成されています:
-//
 //      Major Version
 //      Minor Version 
 //      Build Number
 //      Revision
-//
 // すべての値を指定するか、下のように '*' を使ってビルドおよびリビジョン番号を 
 // 既定値にすることができます:
 // [assembly: AssemblyVersion("1.0.*")]
