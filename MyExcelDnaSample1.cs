@@ -23,7 +23,7 @@ namespace MyExcelDnaSample1
         [ExcelFunction(Description = "引数にHelloを言う。", Category = "Tadahiro Lib.")]
         public static string SayHello(string name)
         {
-            return "Hello " + name;
+            return "こんにちは " + name + " さん。";
         }
 
         /// <summary>配列を返す関数の例</summary>
